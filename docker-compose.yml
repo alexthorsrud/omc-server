@@ -14,7 +14,7 @@ services:
       TYPE: "FABRIC"
       MODRINTH_PROJECTS: ${MODRINTH_PROJECTS}
       MODRINTH_DOWNLOAD_DEPENDENCIES: "REQUIRED"
-      MODRINTH_ALLOWED_VERSION_TYPE: "BETA"
+      MODRINTH_ALLOWED_VERSION_TYPE: "ALPHA"
     volumes:
       - ./fabric-server-data:/data
       - ./fabric-server-configs:/config
