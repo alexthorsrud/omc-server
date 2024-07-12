@@ -1,6 +1,6 @@
 config:
   bind: 0.0.0.0:25565
   servers:
-    server1: localhost:25565
+    server1: localhost:25566
   try:
     - server1
