@@ -22,8 +22,6 @@ services:
     container_name: gate
     restart: unless-stopped
     network_mode: host
-    ports:
-      - "25565:25565"
     volumes:
     - ./gate-config.yml:/config.yml
-    #- PATH-TO-TOKEN/connect.json:/connect.json
+    - ./connect-token.json:/connect.json
