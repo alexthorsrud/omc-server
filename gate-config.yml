@@ -1,9 +1,15 @@
 config:
   bind: 0.0.0.0:25565
-  servers:
-    server1: localhost:25566
-  try:
-    - server1
+  lite: 
+    enabled: true
+    routes: 
+      - host: "*"
+        backend: localhost:25566
+        fallback:
+          motd: §eGate could not find a backend server.
+          version: 
+            name: §eError.
+            protocol: -1
   connect: 
     enabled: true
     name: YOUR-ENDPOINT-NAME-HERE
