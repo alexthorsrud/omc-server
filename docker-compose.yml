@@ -16,3 +16,11 @@ services:
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
+  gate:
+    image: ghcr.io/minekube/gate:latest
+    container_name: gate
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+    - ./gate-config.yml:/config.yml
+    #- PATH-TO-TOKEN/connect.json:/connect.json
