@@ -6,3 +6,4 @@ config:
     - server1
   connect: 
     enabled: true
+    name: YOUR-ENDPOINT-NAME-HERE
