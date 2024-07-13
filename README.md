@@ -5,4 +5,4 @@ mod list stored in stack.env
 
 dependency errors caused by:
 - fabric-seasons-delight-compat
-- cultural-delights
+- cultural-delights-fabric
