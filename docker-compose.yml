@@ -18,3 +18,4 @@ services:
     volumes:
       - ./fabric-server-data:/data
       - ./fabric-server-configs:/config
+      - ./fabric-server-mods:/mods
