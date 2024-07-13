@@ -1,5 +1,5 @@
 # omc-server
-docker deploy stack for optimized moncraft server using minekube tunneling
+docker compose deploy stack for optimized moncraft server 
 
 mod list stored in stack.env
 
