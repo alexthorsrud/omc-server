@@ -1,7 +1,7 @@
 services:
   mc:
     env_file:
-      - ./stack.env
+      - ./.env
     image: itzg/minecraft-server
     container_name: fabric-server
     tty: true
@@ -14,7 +14,7 @@ services:
       EULA: "TRUE"
       VERSION: "1.20.1"
       TYPE: "FABRIC"
-      MODRINTH_PROJECTS: ${MODRINTH_PROJECTS}
+      #MODRINTH_PROJECTS: ${MODRINTH_PROJECTS}
       MODRINTH_DOWNLOAD_DEPENDENCIES: "NONE"
       MODRINTH_ALLOWED_VERSION_TYPE: "ALPHA"
     volumes:
