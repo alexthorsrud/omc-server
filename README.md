@@ -1,5 +1,5 @@
 # omc-server
-docker compose deploy stack using [itzg's docker-minecraft-server image](https://github.com/itzg/docker-minecraft-server) for optimized moncraft server 
+docker compose deploy stack using [itzg's docker-minecraft-server image](https://github.com/itzg/docker-minecraft-server) and [itzg's docker-mc-backup image](https://github.com/itzg/docker-mc-backup).
 
 mod list stored in stack.env
 
